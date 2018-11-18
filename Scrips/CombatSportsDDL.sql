@@ -1088,3 +1088,8 @@ GO
 ALTER TABLE WeightClasses
 ALTER COLUMN weightClass int NOT NULL
 GO
+
+-- add normal weight
+ALTER TABLE PhysicalStats
+ADD	normalWeight	int
+GO

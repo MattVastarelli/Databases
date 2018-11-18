@@ -1337,4 +1337,189 @@ INSERT INTO FightCombatants(fighterID, fightNum,cardName)
 	VALUES('18','8','UFC Fight Night: Poirier vs. Pettis')
 GO
 
+-- add normal weight classes
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='1';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='2';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='3';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='4';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='5';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='6';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='7';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='8';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='9';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='10';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='11';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='12';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='13';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='14';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='15';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='16';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='17';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='18';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='19';
+GO
+
+UPDATE PhysicalStats
+SET normalWeight=155
+WHERE fighterID='20';
+GO
+
 -- add in the weight classes for each fight
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 223','5','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 222','6','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Barboza vs. Lee','6','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 218: Holloway vs. Aldo 2','8','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 219: Cyborg vs. Holm','8','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 226','8','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Poirier vs. Pettis','8','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Santos vs. Anders','8','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 219: Cyborg vs. Holm','9','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 223','9','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 218: Holloway vs. Aldo 2','10','male','MMA','')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Cowboy vs. Medeiros','10','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','10','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 229','11','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','male','MMA','157')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC 229','12','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Gaethje vs. Vick','13','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC Fight Night: Poirier vs. Pettis','13','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','13','male','MMA','155')
+GO
+
+INSERT INTO WeightClasses(cardName, fightNum, gender, sport, weightClass)
+	VALUES('UFC on Fox: Poirier vs. Gaethje','14','male','MMA','155')
+GO
+
+UPDATE WeightClasses
+SET weightClass='155'
+WHERE cardName='UFC 218: Holloway vs. Aldo 2'
+	AND fightNum='10'
