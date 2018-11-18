@@ -1336,3 +1336,5 @@ GO
 INSERT INTO FightCombatants(fighterID, fightNum,cardName)
 	VALUES('18','8','UFC Fight Night: Poirier vs. Pettis')
 GO
+
+-- add in the weight classes for each fight

@@ -1083,3 +1083,8 @@ GO
 ALTER TABLE Purses
 ADD CONSTRAINT pkFightPurse PRIMARY KEY (fightNum,cardName,fighterID)
 GO
+
+-- change the weight class to an int
+ALTER TABLE WeightClasses
+ALTER COLUMN weightClass int NOT NULL
+GO
