@@ -1544,121 +1544,127 @@ GO
 INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
 	VALUES('2','10','UFC 218: Holloway vs. Aldo 2','1')
 GO
+-- remove errors
+DELETE FROM FightCombatants 
+WHERE fighterID='2'
+	AND fightNum='8'
+	AND cardName='UFC 218: Holloway vs. Aldo 2'
+GO
 
-UPDATE FightCombatants
-SET	fighterID='17'
-WHERE fighterID = '2' 
-  and cardName = 'UFC 218: Holloway vs. Aldo 2'
-  and fightNum = '8'
+DELETE FROM FightCombatants 
+WHERE fighterID='5'
+	AND fightNum='8'
+	AND cardName='UFC 218: Holloway vs. Aldo 2'
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('3','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('3','9','UFC 219: Cyborg vs. Holm','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('3','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('3','11','UFC Fight Night: Barboza vs. Lee','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('4','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('4','11','UFC 229','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('5','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('5','13','UFC Fight Night: Gaethje vs. Vick','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('5','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('5','14','UFC on Fox: Poirier vs. Gaethje','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('5','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('5','10','UFC 218: Holloway vs. Aldo 2','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('6','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('6','12','UFC 229','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('7','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('7','14','UFC on Fox: Poirier vs. Gaethje','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('7','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('7','13','UFC on Fox: Alvarez vs. Poirier 2','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('7','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('7','13','UFC Fight Night: Poirier vs. Pettis','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('8','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('8','11','UFC Fight Night: Barboza vs. Lee','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('9','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('9','11','UFC 229','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('9','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('9','13','UFC Fight Night: Poirier vs. Pettis','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('9','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('9','8','UFC 226','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('10','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('10','9','UFC 223','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('12','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('12','8','UFC 226','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('13','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('13','10','UFC Fight Night: Cowboy vs. Medeiros','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('13','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('13','13','UFC Fight Night: Gaethje vs. Vick','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('14','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('14','10','UFC on Fox: Alvarez vs. Poirier 2','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('14','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('14','6','UFC 222','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('15','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('15','6','UFC Fight Night: Barboza vs. Lee','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('15','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('15','2','UFC 226','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('15','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('15','8','UFC 219: Cyborg vs. Holm','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('16','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('16','8','UFC Fight Night: Santos vs. Anders','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('17','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('17','8','UFC 218: Holloway vs. Aldo 2','1')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('18','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('18','5','UFC 223','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('18','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('18','8','UFC Fight Night: Poirier vs. Pettis','0')
+GO
 
---INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
---	VALUES('20','','','')
---GO
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('20','8','UFC 219: Cyborg vs. Holm','0')
+GO

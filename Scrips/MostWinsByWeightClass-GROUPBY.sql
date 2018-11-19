@@ -1,12 +1,13 @@
---find the fighter with the most wins on their record by weight class
+--order fighters by the most wins 
+--baised on their fights recorded in the database
+
 USE CombatSports
 
 SELECT
-	p.cardName,
-	p.fightNum,
-	p.fighterID,
-	p.isWinner,
-	f.fighterName
+	f.fighterName,
+	COUNT(p.isWinner) TotalWins
 FROM Panles p
 INNER JOIN Fighters f
 	ON p.fighterID = f.fighterID
+GROUP BY f.fighterName
+ORDER BY TotalWins DESC
