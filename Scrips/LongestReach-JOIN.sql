@@ -1,4 +1,6 @@
 -- select the fighter with the longest reach
+USE CombatSports
+
 SELECT  TOP 1
   f.fighterID,
   f.fighterName,

@@ -1523,3 +1523,142 @@ UPDATE WeightClasses
 SET weightClass='155'
 WHERE cardName='UFC 218: Holloway vs. Aldo 2'
 	AND fightNum='10'
+
+-- add data to the panels table
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('1','9','UFC 219: Cyborg vs. Holm','1')
+GO
+
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('1','9','UFC 223','1')
+GO
+
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('1','12','UFC 229','1')
+GO
+
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('2','13','UFC on Fox: Alvarez vs. Poirier 2','0')
+GO
+
+INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+	VALUES('2','10','UFC 218: Holloway vs. Aldo 2','1')
+GO
+
+UPDATE FightCombatants
+SET	fighterID='17'
+WHERE fighterID = '2' 
+  and cardName = 'UFC 218: Holloway vs. Aldo 2'
+  and fightNum = '8'
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('3','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('3','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('4','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('5','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('5','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('5','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('6','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('7','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('7','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('7','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('8','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('9','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('9','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('9','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('10','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('12','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('13','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('13','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('14','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('14','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('15','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('15','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('15','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('16','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('17','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('18','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('18','','','')
+--GO
+
+--INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+--	VALUES('20','','','')
+--GO

@@ -1,4 +1,6 @@
 --find the fighter with the best striking offense
+USE CombatSports
+
 SELECT TOP 1 
   f.fighterName,
   f.fighterID,

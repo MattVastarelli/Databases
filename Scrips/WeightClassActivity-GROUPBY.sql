@@ -1,5 +1,7 @@
 --find and rank weight class  by number of fights in the current year
 -- inorder to determine how active each weight  class is
+USE CombatSports
+
 SELECT
 	COUNT(fc.fighterID) NumOfFights,
 	w.weightClass

@@ -1093,3 +1093,12 @@ GO
 ALTER TABLE PhysicalStats
 ADD	normalWeight	int
 GO
+
+-- allow for nulls
+ALTER TABLE Panles
+ALTER COLUMN judgingSystem varchar(100)
+GO
+
+ALTER TABLE Panles
+ALTER COLUMN decision varchar(100)
+GO
