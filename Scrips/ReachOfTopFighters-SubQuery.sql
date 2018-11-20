@@ -2,13 +2,13 @@
 
 USE CombatSports
 
-SELECT
+SELECT TOP 5
 	TopFighters.fighterName,
 	TopFighters.TotalWins,
 	p.reach
 FROM
 	(
-		SELECT TOP 5
+		SELECT
 			f.fighterID,
 			f.fighterName,
 			COUNT(p.isWinner) TotalWins
@@ -16,9 +16,8 @@ FROM
 		INNER JOIN Fighters f
 			ON p.fighterID = f.fighterID
 		GROUP BY f.fighterName, f.fighterID
-		ORDER BY TotalWins DESC
 	) TopFighters
 INNER JOIN PhysicalStats p
 	ON TopFighters.fighterID = p.fighterID
 WHERE p.normalWeight = '155'
-ORDER BY TotalWins DESC
+ORDER BY TopFighters.TotalWins DESC
