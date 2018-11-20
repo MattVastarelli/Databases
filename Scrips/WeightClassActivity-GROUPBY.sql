@@ -3,7 +3,7 @@
 USE CombatSports
 
 SELECT
-	COUNT(fc.fighterID) NumOfFights,
+	COUNT(DISTINCT c.cardName + CONVERT(varchar(100), f.fightNum)) DistinctFights,
 	w.weightClass
 FROM  Cards c
 INNER JOIN  Fights f
@@ -16,4 +16,4 @@ INNER JOIN WeightClasses w
 	AND f.fightNum = w.fightNum
 WHERE dbo.FindYearsSince(c.fightDate) < 1
 GROUP BY w.weightClass
-ORDER BY NumOfFights DESC
+ORDER BY w.weightClass ASC

@@ -1,5 +1,5 @@
 --find all the fighters that have been in a fight where 
---one fighter missed weight
+--one fighter missed weight in the last year
 
 USE CombatSports
 
