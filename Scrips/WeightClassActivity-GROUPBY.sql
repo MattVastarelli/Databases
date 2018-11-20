@@ -1,5 +1,5 @@
 --find and rank weight class  by number of fights in the current year
--- inorder to determine how active each weight  class is
+-- inorder to determine how active each weight class is
 USE CombatSports
 
 SELECT
@@ -9,8 +9,8 @@ FROM  Cards c
 INNER JOIN  Fights f
 	ON c.cardName = f.cardName 
 INNER JOIN FightCombatants fc
-	ON  fc.cardName = f.cardName 
-	AND fc.fightNum = f.fightNum
+	ON  f.cardName = fc.cardName 
+	AND f.fightNum = fc.fightNum
 INNER JOIN WeightClasses w
 	ON  f.cardName = w.cardName
 	AND f.fightNum = w.fightNum
