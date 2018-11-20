@@ -652,12 +652,6 @@ ALTER TABLE StrkingStats
 ADD accuracy as success/attempt * 100
 GO
 
--- alter fights so that it will have a something that resembles
--- a one to many ex two fighters per fight, but does not effect 
--- the relationships between the fights table, relationships
--- and maintaing the hieracy of the database ex a card has 
--- many fights which 
-
 -- alter panles and judges so that a panel has many judges
 ALTER TABLE Judges
 ADD fightPannel int NOT NULL
@@ -1117,3 +1111,140 @@ GO
 
 ALTER TABLE Fights
 DROP COLUMN opponetName
+
+--fix the caculated column isuse
+-- striking stats
+ALTER TABLE StrkingStats
+DROP COLUMN accuracy
+GO
+
+ALTER TABLE StrkingStats
+ALTER COLUMN success float
+GO
+
+ALTER TABLE StrkingStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE StrkingStats
+ADD accuracy as (success/attempt) * 100
+GO
+
+--Def string stats
+ALTER TABLE DefStrikingStats
+DROP COLUMN defense
+GO
+
+ALTER TABLE DefStrikingStats
+ALTER COLUMN hit float
+GO
+
+ALTER TABLE DefStrikingStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE DefStrikingStats
+ADD defense as (hit/attempt) * 100
+GO
+
+-- sub stats
+ALTER TABLE SubmissionStats
+DROP COLUMN accuracy
+GO
+
+ALTER TABLE SubmissionStats
+ALTER COLUMN success float
+GO
+
+ALTER TABLE SubmissionStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE SubmissionStats
+ADD accuracy as (success/attempt) * 100
+GO
+
+--Def sub stats
+ALTER TABLE DefSubmissionStats
+DROP COLUMN defense
+GO
+
+ALTER TABLE DefSubmissionStats
+ALTER COLUMN subed float
+GO
+
+ALTER TABLE DefSubmissionStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE DefSubmissionStats
+ADD defense as (subed/attempt) * 100
+GO
+
+-- Wrestling stats
+ALTER TABLE WrestlingStats
+DROP COLUMN accuracy
+GO
+
+ALTER TABLE WrestlingStats
+ALTER COLUMN success float
+GO
+
+ALTER TABLE WrestlingStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE WrestlingStats
+ADD accuracy as (success/attempt) * 100
+GO
+
+-- Def Wrestling stats
+ALTER TABLE DefWrestlingStats
+DROP COLUMN defense
+GO
+
+ALTER TABLE DefWrestlingStats
+ALTER COLUMN takendown float
+GO
+
+ALTER TABLE DefWrestlingStats
+ALTER COLUMN attempt float
+GO
+
+ALTER TABLE DefWrestlingStats
+ADD accuracy as (takendown/attempt) * 100
+GO
+
+-- rename some defensive stats columns
+ ALTER TABLE DefWrestlingStats
+DROP COLUMN accuracy
+GO
+
+ALTER TABLE DefWrestlingStats
+DROP COLUMN takendown
+GO
+
+ALTER TABLE DefWrestlingStats
+ADD takedownStoped float
+GO
+
+ALTER TABLE DefWrestlingStats
+ADD defense as (takedownStoped/attempt) * 100
+GO
+
+--Def string stats
+ALTER TABLE DefStrikingStats
+DROP COLUMN defense
+GO
+
+ALTER TABLE DefStrikingStats
+DROP COLUMN hit
+GO
+
+ALTER TABLE DefStrikingStats
+ADD strikeMissed float
+GO
+
+ALTER TABLE DefStrikingStats
+ADD defense as (strikeMissed/attempt) * 100
+GO
