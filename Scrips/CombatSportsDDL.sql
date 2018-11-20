@@ -1102,3 +1102,18 @@ GO
 ALTER TABLE Panles
 ALTER COLUMN decision varchar(100)
 GO
+
+-- rework pannles
+ALTER TABLE Panles
+DROP CONSTRAINT fkFightPanles 
+GO
+
+ALTER TABLE Panles
+ADD CONSTRAINT fkFightPanles FOREIGN KEY (fightNum,cardName,fighterID)
+	REFERENCES FightCombatants (fightNum,cardName,fighterID)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
+GO
+
+ALTER TABLE Fights
+DROP COLUMN opponetName
