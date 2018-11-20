@@ -21,3 +21,4 @@ FROM
 INNER JOIN PhysicalStats p
 	ON TopFighters.fighterID = p.fighterID
 WHERE p.normalWeight = '155'
+ORDER BY TotalWins DESC
