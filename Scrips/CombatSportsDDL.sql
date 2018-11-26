@@ -1248,3 +1248,74 @@ GO
 ALTER TABLE DefStrikingStats
 ADD defense as (strikeMissed/attempt) * 100
 GO
+
+--correct spelling
+DROP TABLE StrkingStats
+GO
+
+-- offensive striking stats
+CREATE TABLE StrikingStats (
+	FighterID		int NOT NULL,
+	success			float,
+	attempt			float,
+	accuracy		as (success / attempt) * 100
+	--primary key
+	CONSTRAINT pkStrikingStats PRIMARY KEY (fighterID),
+	--foreign key
+	CONSTRAINT fkFighterID5 FOREIGN KEY (fighterID)
+		REFERENCES Fighters(fighterID)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE,
+);
+GO
+
+--correct spelling
+ALTER TABLE Panles
+DROP CONSTRAINT fkFightPanles
+GO
+
+ALTER TABLE Judges
+DROP CONSTRAINT fkFightJudge
+GO
+
+DROP TABLE Panles
+GO
+
+CREATE TABLE Panels (
+	judgingSystem	varchar(100),
+	decision		varchar(100),
+	fightNum		int	NOT NULL,
+	cardName		varchar(100) NOT NULL,
+	fighterID		int	NOT NULL,
+	isWinner		bit NOT NULL
+);
+GO
+
+ALTER TABLE Panels
+ADD CONSTRAINT fkFightPanle FOREIGN KEY (fightNum,cardName,fighterID)
+	REFERENCES FightCombatants (fightNum,cardName,fighterID)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
+GO
+
+ALTER TABLE Panels
+DROP CONSTRAINT fkFightPanle
+GO
+
+ALTER TABLE Panels
+ADD CONSTRAINT fkFightPanel FOREIGN KEY (fightNum,cardName,fighterID)
+	REFERENCES FightCombatants (fightNum,cardName,fighterID)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
+GO
+
+ALTER TABLE Panels
+ADD CONSTRAINT pkFightPanel PRIMARY KEY (fightNum,cardName,fighterID)
+GO
+
+ALTER TABLE Judges
+ADD CONSTRAINT fkFightJudge FOREIGN KEY (fightNum,cardName,fighterID)
+	REFERENCES Panels (fightNum,cardName,fighterID)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
+GO

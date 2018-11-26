@@ -6,7 +6,7 @@ USE CombatSports
 SELECT
 	f.fighterName,
 	COUNT(p.isWinner) TotalWins
-FROM Panles p
+FROM Panels p
 INNER JOIN Fighters f
 	ON p.fighterID = f.fighterID
 GROUP BY f.fighterName

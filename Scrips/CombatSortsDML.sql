@@ -456,84 +456,83 @@ WHERE fighterID='5';
 GO
 
 --add striking stats
-
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('1','657','1323')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('2','400','970')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('3','738','1899')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('4','832','1865')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('5','348','638')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('6','524','1074')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('7','1146','2302')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('8','585','1295')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('9','672','1483')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('10','526','1312')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('11','1311','2965')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('12','193','509')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('13','395','1023')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('14','47','94')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('15','335','762')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('16','673','1483')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('17','444','1017')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('18','580','1489')
 GO
 
-INSERT INTO StrkingStats(FighterID)
+INSERT INTO StrikingStats(FighterID)
 	VALUES ('19')
 GO
 
-INSERT INTO StrkingStats(FighterID,success,attempt)
+INSERT INTO StrikingStats(FighterID,success,attempt)
 	VALUES ('20','171','523')
 GO
 
@@ -1525,146 +1524,134 @@ WHERE cardName='UFC 218: Holloway vs. Aldo 2'
 	AND fightNum='10'
 
 -- add data to the panels table
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('1','9','UFC 219: Cyborg vs. Holm','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('1','9','UFC 223','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('1','12','UFC 229','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('2','13','UFC on Fox: Alvarez vs. Poirier 2','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('2','10','UFC 218: Holloway vs. Aldo 2','1')
 GO
--- remove errors
-DELETE FROM FightCombatants 
-WHERE fighterID='2'
-	AND fightNum='8'
-	AND cardName='UFC 218: Holloway vs. Aldo 2'
-GO
 
-DELETE FROM FightCombatants 
-WHERE fighterID='5'
-	AND fightNum='8'
-	AND cardName='UFC 218: Holloway vs. Aldo 2'
-GO
-
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('3','9','UFC 219: Cyborg vs. Holm','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('3','11','UFC Fight Night: Barboza vs. Lee','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('4','11','UFC 229','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('5','13','UFC Fight Night: Gaethje vs. Vick','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('5','14','UFC on Fox: Poirier vs. Gaethje','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('5','10','UFC 218: Holloway vs. Aldo 2','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('6','12','UFC 229','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('7','14','UFC on Fox: Poirier vs. Gaethje','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('7','13','UFC on Fox: Alvarez vs. Poirier 2','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('7','13','UFC Fight Night: Poirier vs. Pettis','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('8','11','UFC Fight Night: Barboza vs. Lee','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('9','11','UFC 229','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('9','13','UFC Fight Night: Poirier vs. Pettis','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('9','8','UFC 226','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('10','9','UFC 223','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('12','8','UFC 226','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('13','10','UFC Fight Night: Cowboy vs. Medeiros','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('13','13','UFC Fight Night: Gaethje vs. Vick','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('14','10','UFC on Fox: Alvarez vs. Poirier 2','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('14','6','UFC 222','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('15','6','UFC Fight Night: Barboza vs. Lee','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('15','2','UFC 226','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('15','8','UFC 219: Cyborg vs. Holm','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('16','8','UFC Fight Night: Santos vs. Anders','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('17','8','UFC 218: Holloway vs. Aldo 2','1')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('18','5','UFC 223','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('18','8','UFC Fight Night: Poirier vs. Pettis','0')
 GO
 
-INSERT INTO Panles(fighterID, fightNum, cardName, isWinner)
+INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('20','8','UFC 219: Cyborg vs. Holm','0')
 GO

@@ -8,6 +8,6 @@ SELECT TOP 1
   s.success,
   s.accuracy
 FROM  Fighters f
-INNER JOIN  StrkingStats s
+INNER JOIN  StrikingStats s
 ON  f.fighterID = s.FighterID
 ORDER BY s.accuracy DESC
