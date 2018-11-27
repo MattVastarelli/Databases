@@ -1895,53 +1895,49 @@ GO
 
 --purse data
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','0','250000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','100000','250000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Gaethje vs. Vick','13','5','50000','100000','25000')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Gaethje vs. Vick','13','13','0','100000','25000')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 218: Holloway vs. Aldo 2','10','2','125000','50000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 218: Holloway vs. Aldo 2','10','5','0','50000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','13','2','0','75000','1000')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','13','7','10000','75000','1000')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 229','12','1','25000','275000','30000')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 229','12','6','0','275000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 229','11','4','25000','200000','0')
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
+	VALUES('UFC 229','11','9','0','200000','0')
 GO
