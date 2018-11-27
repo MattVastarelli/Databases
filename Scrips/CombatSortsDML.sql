@@ -1862,39 +1862,35 @@ GO
 
 --ruleset data
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Santos vs. Anders','8','California Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC 226','8','Massachusetts Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC 229','11','Nevada Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','New York Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Poirier vs. Pettis','13','New York Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','13','Nevada Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC 218: Holloway vs. Aldo 2','8','Massachusetts Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Gaethje vs. Vick','13','California Athletic Commission','MMA','professional','unified mma rules')
 GO
 
 --purse data

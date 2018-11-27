@@ -1323,3 +1323,7 @@ GO
 ALTER TABLE Scores
 ALTER COLUMN score int NOT NULL
 GO
+
+ALTER TABLE RuleSets
+ALTER COLUMN commissionName varchar(100) NOT NULL
+GO
