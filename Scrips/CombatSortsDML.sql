@@ -1556,83 +1556,83 @@ GO
 
 --fighter agents data
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('1','Shonda Marston')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('2','Cairo Leonardson')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('3','Jolene Tyrell')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('4','Shonda Marston')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('5','London Hunter')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('6','Cairo Leonardson')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('7','Maddy James')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('8','Shonda Marston')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('9','Jolene Tyrell')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('10','Cairo Leonardson')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('11','Garret Fry')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('12','Maddy James')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('13','Cairo Leonardson')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('14','Jolene Tyrell')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('15','London Hunter')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('16','Jolene Tyrell')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('17','Myles Hailey')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('18','Garret Fry')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('19','Maddy James')
 GO
 
 INSERT INTO	Agencies(fighterID,	AgentName)
-	VALUES('','')
+	VALUES('20','London Hunter')
 GO
 
 --fight locations
