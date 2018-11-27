@@ -1012,108 +1012,6 @@ INSERT INTO Cards(cardName, numFights, mainEvent, fightDate, promoterName)
 	VALUES('UFC Fight Night: Poirier vs. Pettis','13','Poirier vs. Pettis','11/11/2017','Ultimate Fighting Championship')
 GO
 
--- Fight info
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('13','UFC Fight Night: Poirier vs. Pettis')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('13','UFC Fight Night: Poirier vs. Pettis')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('8','UFC 218: Holloway vs. Aldo 2')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('10','UFC 218: Holloway vs. Aldo 2')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('8','UFC 219: Cyborg vs. Holm')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('9','UFC 219: Cyborg vs. Holm')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('6','UFC 222')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('5','UFC 223')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('9','UFC 223')
---GO
-
-----Fixed error
-----DELETE FROM Fights
-----	WHERE fightNum='9'
-
-----UPDATE Fights
-----SET fightNum='9'
-----WHERE fightID='9'
-
-----UPDATE Fights
-----SET fightNum='6'
-----WHERE fightID='8'
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('8','UFC 226')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('2','UFC 226')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('11','UFC 229')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('12','UFC 229')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('6','UFC Fight Night: Barboza vs. Lee')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('11','UFC Fight Night: Barboza vs. Lee')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('10','UFC Fight Night: Cowboy vs. Medeiros')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('13','UFC Fight Night: Gaethje vs. Vick')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('8','UFC Fight Night: Santos vs. Anders')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('10','UFC on Fox: Alvarez vs. Poirier 2')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('13','UFC on Fox: Alvarez vs. Poirier 2')
---GO
-
---INSERT INTO Fights(fightNum, cardName)
---	VALUES('14','UFC on Fox: Poirier vs. Gaethje')
---GO
-
---remove data
---DELETE FROM Fights
---GO
-
 --readd the data to fit the new design of the table
 INSERT INTO Fights(fightNum, cardName)
 	VALUES('13','UFC Fight Night: Poirier vs. Pettis')
@@ -1654,4 +1552,380 @@ GO
 
 INSERT INTO Panels(fighterID, fightNum, cardName, isWinner)
 	VALUES('20','8','UFC 219: Cyborg vs. Holm','0')
+GO
+
+--fighter agents data
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+INSERT INTO	Agencies(fighterID,	AgentName)
+	VALUES('','')
+GO
+
+--fight locations
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('','','','')
+GO
+
+--judge data
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('','','','')
+GO
+
+--purse data
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
+	VALUES('','','','','','')
+GO
+
+--ref data
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('')
+GO
+
+--commission data
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('')
+GO
+
+--ruleset data
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+--judges score data
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
 GO
