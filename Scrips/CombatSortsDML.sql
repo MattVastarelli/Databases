@@ -1688,49 +1688,159 @@ INSERT INTO FightLocations(cardName,city,country,arenaName)
 	VALUES('UFC on Fox: Poirier vs. Gaethje','brooklyn','United States','barclay center')
 GO
 
+--ref data
+INSERT INTO Refs(refName)
+	VALUES('Mark Matheny')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Rob Hinds')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Minoru Toyonaga')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Josh Rosenthal')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Jason Herzog')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES(' Keith Peterson')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Leon Roberts')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Marc Goddard')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('John McCarthy')
+GO
+
+INSERT INTO Refs(refName)
+	VALUES('Herb Dean')
+GO
+
 --judge data
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Howard Ellisson','UFC 226','8','9')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Howard Ellisson','UFC 226','8','12')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Howard Ellisson','UFC Fight Night: Barboza vs. Lee','11','3')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Howard Ellisson','UFC Fight Night: Barboza vs. Lee','11','8')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Valarie Holmes','UFC 226','8','9')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Valarie Holmes','UFC 226','8','12')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Valarie Holmes','UFC Fight Night: Barboza vs. Lee','11','3')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Valarie Holmes','UFC Fight Night: Barboza vs. Lee','11','8')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Alexandra Waters','UFC 226','8','9')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Alexandra Waters','UFC 226','8','12')
 GO
 
 INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
-	VALUES('','','','')
+	VALUES('Alexandra Waters','UFC Fight Night: Barboza vs. Lee','11','3')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('Alexandra Waters','UFC Fight Night: Barboza vs. Lee','11','8')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('Logan Corey','UFC 226','8','9')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('Logan Corey','UFC 226','8','12')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('Logan Corey','UFC Fight Night: Barboza vs. Lee','11','3')
+GO
+
+INSERT INTO Judges(judgeName,cardName,fightNum,fighterID)
+	VALUES('Logan Corey','UFC Fight Night: Barboza vs. Lee','11','8')
+GO
+
+--judges score data
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
+	VALUES('','','','','','')
 GO
 
 --purse data
@@ -1784,39 +1894,6 @@ GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
 	VALUES('','','','','','')
-GO
-
---ref data
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
-GO
-
-INSERT INTO Refs(refName)
-	VALUES('')
 GO
 
 --commission data
@@ -1890,54 +1967,5 @@ INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
 GO
 
 INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
---judges score data
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
 	VALUES('','','','','','')
 GO
