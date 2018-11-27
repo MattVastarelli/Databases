@@ -1796,51 +1796,51 @@ GO
 
 --judges score data
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Alexandra Waters','1','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Valarie Holmes','1','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Logan Corey','1','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Alexandra Waters','2','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Valarie Holmes','2','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','8','Logan Corey','2','10')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Alexandra Waters','1','9')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Valarie Holmes','1','8')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Logan Corey','1','9')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Alexandra Waters','2','9')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Valarie Holmes','2','9')
 GO
 
 INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
-	VALUES('','','','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Logan Corey','2','8')
 GO
 
 --purse data
