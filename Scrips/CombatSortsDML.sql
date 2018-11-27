@@ -1637,43 +1637,55 @@ GO
 
 --fight locations
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 218: Holloway vs. Aldo 2','Boston','United States','TD Garden')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 219: Cyborg vs. Holm','brooklyn','United States','barclay center')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 222','Las Vegas','United States','MGM Arena')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 223','los angeles','United States','Staples Center')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 226','Boston','United States','TD Garden')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC 229''Las Vegas','United States','MGM Arena')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC Fight Night: Barboza vs. Lee','brooklyn','United States','barclay center')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC Fight Night: Cowboy vs. Medeiros','Boston','United States','TD Garden')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC Fight Night: Gaethje vs. Vick','los angeles','United States','Staples Center')
 GO
 
 INSERT INTO FightLocations(cardName,city,country,arenaName)
-	VALUES('','','','')
+	VALUES('UFC Fight Night: Poirier vs. Pettis','brooklyn','United States','barclay center')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('UFC Fight Night: Santos vs. Anders','los angeles','United States','Staples Center')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('UFC on Fox: Alvarez vs. Poirier 2','Las Vegas','United States','MGM Arena')
+GO
+
+INSERT INTO FightLocations(cardName,city,country,arenaName)
+	VALUES('UFC on Fox: Poirier vs. Gaethje','brooklyn','United States','barclay center')
 GO
 
 --judge data
