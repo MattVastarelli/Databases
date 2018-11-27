@@ -1012,7 +1012,7 @@ INSERT INTO Cards(cardName, numFights, mainEvent, fightDate, promoterName)
 	VALUES('UFC Fight Night: Poirier vs. Pettis','13','Poirier vs. Pettis','11/11/2017','Ultimate Fighting Championship')
 GO
 
---readd the data to fit the new design of the table
+--fight data
 INSERT INTO Fights(fightNum, cardName)
 	VALUES('13','UFC Fight Night: Poirier vs. Pettis')
 GO
@@ -1710,7 +1710,7 @@ INSERT INTO Refs(refName)
 GO
 
 INSERT INTO Refs(refName)
-	VALUES(' Keith Peterson')
+	VALUES('Keith Peterson')
 GO
 
 INSERT INTO Refs(refName)
@@ -1940,4 +1940,131 @@ GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
 	VALUES('UFC 229','11','9','0','200000','0')
+GO
+
+--upadate fight refs
+UPDATE Fights
+SET refName = 'Marc Goddard'
+WHERE cardName = 'UFC Fight Night: Barboza vs. Lee'
+	AND fightNum = '11'
+GO
+
+UPDATE Fights
+SET refName = 'Marc Goddard'
+WHERE cardName = 'UFC 226'
+	AND fightNum = '2'
+GO
+
+UPDATE Fights
+SET refName = 'Marc Goddard'
+WHERE cardName = 'UFC 223'
+	AND fightNum = '9'
+GO
+
+UPDATE Fights
+SET refName = 'Jason Herzog'
+WHERE cardName = 'UFC 223'
+	AND fightNum = '5'
+GO
+
+UPDATE Fights
+SET refName = 'Jason Herzog'
+WHERE cardName = 'UFC 219: Cyborg vs. Holm'
+	AND fightNum = '9'
+GO
+
+UPDATE Fights
+SET refName = 'Jason Herzog'
+WHERE cardName = 'UFC Fight Night: Gaethje vs. Vick'
+	AND fightNum = '13'
+GO
+
+UPDATE Fights
+SET refName = 'John McCarthy'
+WHERE cardName = 'UFC 219: Cyborg vs. Holm'
+	AND fightNum = '8'
+GO
+
+UPDATE Fights
+SET refName = 'John McCarthy'
+WHERE cardName = 'UFC 222'
+	AND fightNum = '6'
+GO
+
+UPDATE Fights
+SET refName = 'John McCarthy'
+WHERE cardName = 'UFC Fight Night: Cowboy vs. Medeiros'
+	AND fightNum = '10'
+GO
+
+UPDATE Fights
+SET refName = 'Herb Dean'
+WHERE cardName = 'UFC Fight Night: Poirier vs. Pettis'
+	AND fightNum = '13'
+GO
+
+UPDATE Fights
+SET refName = 'Herb Dean'
+WHERE cardName = 'UFC Fight Night: Poirier vs. Pettis'
+	AND fightNum = '8'
+GO
+
+UPDATE Fights
+SET refName = 'Herb Dean'
+WHERE cardName = 'UFC Fight Night: Barboza vs. Lee'
+	AND fightNum = '6'
+GO
+
+UPDATE Fights
+SET refName = 'Minoru Toyonaga'
+WHERE cardName = 'UFC on Fox: Alvarez vs. Poirier 2'
+	AND fightNum = '10'
+GO
+
+UPDATE Fights
+SET refName = 'Minoru Toyonaga'
+WHERE cardName = 'UFC on Fox: Alvarez vs. Poirier 2'
+	AND fightNum = '13'
+GO
+
+UPDATE Fights
+SET refName = 'Minoru Toyonaga'
+WHERE cardName = 'UFC 229'
+	AND fightNum = '12'
+GO
+
+UPDATE Fights
+SET refName = 'Leon Roberts'
+WHERE cardName = 'UFC 218: Holloway vs. Aldo 2'
+	AND fightNum = '8'
+GO
+
+UPDATE Fights
+SET refName = 'Leon Roberts'
+WHERE cardName = 'UFC 226'
+	AND fightNum = '8'
+GO
+
+UPDATE Fights
+SET refName = 'Leon Roberts'
+WHERE cardName = 'UFC Fight Night: Santos vs. Anders'
+	AND fightNum = '8'
+GO
+
+UPDATE Fights
+SET refName = 'Leon Roberts'
+WHERE cardName = 'UFC on Fox: Poirier vs. Gaethje'
+	AND fightNum = '14'
+GO
+
+UPDATE Fights
+SET refName = 'Rob Hinds'
+WHERE cardName = 'UFC 218: Holloway vs. Aldo 2'
+	AND fightNum = '10'
+GO
+
+UPDATE Fights
+SET refName = 'Rob Hinds'
+WHERE cardName = 'UFC 229'
+	AND fightNum = '11'
 GO
