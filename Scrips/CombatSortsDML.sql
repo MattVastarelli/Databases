@@ -1843,6 +1843,60 @@ INSERT INTO Scores(cardName,fightNum,fighterID,judgeName,roundNum,score)
 	VALUES('UFC Fight Night: Barboza vs. Lee','11','3','Logan Corey','2','8')
 GO
 
+--commission data
+INSERT INTO Commissions(commissionName)
+	VALUES('New York Athletic Commission')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('Nevada Athletic Commission')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('Massachusetts Athletic Commission')
+GO
+
+INSERT INTO Commissions(commissionName)
+	VALUES('California Athletic Commission')
+GO
+
+--ruleset data
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
+INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
+	VALUES('','','','','','')
+GO
+
 --purse data
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
 	VALUES('','','','','','')
@@ -1893,79 +1947,5 @@ INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
 GO
 
 INSERT INTO Purses(cardName,fightNum,fighterID,winPay,showPay,fightBonus)
-	VALUES('','','','','','')
-GO
-
---commission data
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
-INSERT INTO Commissions(commissionName)
-	VALUES('')
-GO
-
---ruleset data
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
-	VALUES('','','','','','')
-GO
-
-INSERT INTO RuleSets(cardName,fightNum,commissionName,sport,fightLevel,ruleSet)
 	VALUES('','','','','','')
 GO
