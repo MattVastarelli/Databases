@@ -3483,7 +3483,7 @@ ORDER BY TopFighters.TotalWins DESC
 GO
 
 --find all the fighters that have been in a fight in the last year
---where one fighter missed weight
+--where one fighter missed weight or fought out of their weight class
 
 SELECT 
 	f.fighterName,
