@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-1. About
+1. [About](# About)
 2. [DDL](https://github.com/MattVastarelli/Databases/blob/master/DDL/CombatSportsDDL.sql)
 3. [DML](https://github.com/MattVastarelli/Databases/blob/master/DML/CombatSortsDML.sql) 
 4. [Documentation](https://github.com/MattVastarelli/Databases/tree/master/Documentation)
