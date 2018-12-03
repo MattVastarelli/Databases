@@ -3516,26 +3516,26 @@ GO
 -- join
 -- select the fighter with the longest reach
 SELECT  TOP 1
-  f.fighterID,
-  f.fighterName,
-  p.reach
+	f.fighterID,
+	f.fighterName,
+	p.reach
 FROM Fighters f
 INNER JOIN	PhysicalStats p
-ON f.fighterID = p.fighterID
+	ON f.fighterID = p.fighterID
 ORDER BY  p.reach DESC
 
 GO
 
 --find the fighter with the best striking offense
 SELECT TOP 1 
-  f.fighterName,
-  f.fighterID,
-  s.attempt,
-  s.success,
-  s.accuracy
+	f.fighterName,
+	f.fighterID,
+	s.attempt,
+	s.success,
+	s.accuracy
 FROM  Fighters f
 INNER JOIN  StrikingStats s
-ON  f.fighterID = s.FighterID
+	ON  f.fighterID = s.FighterID
 ORDER BY s.accuracy DESC
 
 GO
